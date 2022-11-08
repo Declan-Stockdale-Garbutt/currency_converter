@@ -1,11 +1,8 @@
-<h1 align="center">Project Name></h1>
+<h1 align="center">Currecny converter></h1>
 
 ## Author
 
 **Declan Stockdale**
-
-- Student ID: 11214549
-- Email: Declan.M.Stockdale@student.uts.edu.au
 
 ## Description
 Converting between two currencies using the frankfurter api (https://api.frankfurter.app)
@@ -50,7 +47,3 @@ If you are using Pipenv, then you can run:
 5. Less than 2 inputs 		     -> [ERROR] You haven't provided 2 currency codes
 6. More than 5 input		     -> [ERROR] Too many input arguments, max inputs is 3
 7. If no amount is given	     -> uses amount of 1.00
-
-Everything works as far as I can tell
-Don't know how to access attributes of class object if the object is not returned
-
