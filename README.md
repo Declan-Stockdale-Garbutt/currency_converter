@@ -1,4 +1,4 @@
-<h1 align="center">Currecny converter</h1>
+# Currency converter
 
 ## Author
 
