@@ -2,7 +2,7 @@
 
 ## Author
 
-**Declan Stockdale**
+**Declan Stockdale-Garbutt**
 
 ## Description
 Converting between two currencies using the frankfurter api (https://api.frankfurter.app)
@@ -47,3 +47,20 @@ If you are using Pipenv, then you can run:
 5. Less than 2 inputs 		     -> [ERROR] You haven't provided 2 currency codes
 6. More than 5 input		     -> [ERROR] Too many input arguments, max inputs is 3
 7. If no amount is given	     -> uses amount of 1.00
+
+## Examples of output
+
+python main.py AUD EUR 25
+![image](https://user-images.githubusercontent.com/53500810/206885579-80c4f18d-b351-49cf-98fe-2ba144b39958.png)
+
+python main.py AUD EUR -100
+![image](https://user-images.githubusercontent.com/53500810/206885603-bb72e698-4473-4f4a-89ae-72f857e781ea.png)
+
+python main.py AUD AUD 10
+![image](https://user-images.githubusercontent.com/53500810/206885622-93f1e97f-29a4-45a9-997c-395d487fca01.png)
+
+python main.py AUASDASDSA AUD 10
+![image](https://user-images.githubusercontent.com/53500810/206885640-8afa8d35-6d97-42f1-9cd8-12a3a08b8303.png)
+
+
+
